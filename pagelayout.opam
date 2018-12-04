@@ -1,0 +1,15 @@
+
+opam-version: "2.0"
+name: "pagelayout"
+synopsis: "Eventually be a nice page layout tool"
+version: "0.1"
+maintainer: "Thomas Brunoli <tom@tombrunoli.com>"
+authors: "Thomas Brunoli <tom@tombrunoli.com>"
+license: "ISC"
+depends: [
+  "base"
+  "stdio"
+  "dune" {build}
+  "reason" {build}
+]
+build: ["dune" "build" "-p" name]

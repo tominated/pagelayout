@@ -1,3 +1,4 @@
 (executable
  (name pagelayout)
+ (public_name pagelayout.exe)
  (libraries base stdio))
